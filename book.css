@@ -1,0 +1,76 @@
+body {
+    background: #f080804b;
+}
+
+.bookandprices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    height: 100vh;
+}
+
+.book {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+}
+
+.book input {
+    width: 400px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px dotted;
+}
+
+.book input::placeholder {
+    color: black;
+}
+
+.book select {
+    padding: 15px;
+    border-radius: 10px;
+    width: 430px;
+}
+
+#book {
+    width: 300px;
+    height: 50px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    transition: .3s ease-in;
+}
+
+#book:hover {
+    background: chocolate;
+}
+
+.prices {
+    width: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui;
+    font-size: 25px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.prices ul{
+    list-style: none;
+}
+
+.prices ul li {
+    padding: 10px;
+    font-weight: bold;
+}

@@ -1,0 +1,50 @@
+body{
+    background-color: bisque;
+}
+fieldset {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 60px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: fit-content;
+    text-transform: capitalize;
+    font-family: system-ui;
+}
+
+input {
+    width: 300px;
+    font-size: 15px;
+    outline: none;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px dotted;
+}
+
+#signup {
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    transition: .3s ease-in;
+}
+
+#signup:hover {
+    background: chocolate;
+}
+
+.prices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
